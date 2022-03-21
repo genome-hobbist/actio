@@ -20,7 +20,7 @@ struct ActioApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView().onOpenURL(perform: { url in
+            MainView().onOpenURL(perform: { url in
                 print("incomming url \(url)")
             })
         }.onChange(of: scenePhase) { phase in
