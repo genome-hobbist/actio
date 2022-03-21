@@ -10,11 +10,13 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         ZStack {
+            Color.yellow.edgesIgnoringSafeArea(.all)
             MainViewBG0()
+            MainViewBG1()
             Text("My VCF")
                 .font(.largeTitle)
                 .padding()
-                .scaledToFill()
+                .scaledToFit()
         }
     }
 }

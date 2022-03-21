@@ -14,6 +14,7 @@
 		406BE83D27E8CF8C00F13F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BE83C27E8CF8C00F13F43 /* AppDelegate.swift */; };
 		406BE83F27E8D2BA00F13F43 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BE83E27E8D2BA00F13F43 /* DataModel.swift */; };
 		406BE85A27E8EF8500F13F43 /* MainViewBG0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BE85927E8EF8500F13F43 /* MainViewBG0.swift */; };
+		406BE85E27E8FB5C00F13F43 /* MainViewBG1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BE85D27E8FB5C00F13F43 /* MainViewBG1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		406BE83C27E8CF8C00F13F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406BE83E27E8D2BA00F13F43 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		406BE85927E8EF8500F13F43 /* MainViewBG0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBG0.swift; sourceTree = "<group>"; };
+		406BE85D27E8FB5C00F13F43 /* MainViewBG1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewBG1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				406BE82F27E8BD5E00F13F43 /* MainView.swift */,
 				406BE85927E8EF8500F13F43 /* MainViewBG0.swift */,
+				406BE85D27E8FB5C00F13F43 /* MainViewBG1.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				406BE85A27E8EF8500F13F43 /* MainViewBG0.swift in Sources */,
 				406BE83D27E8CF8C00F13F43 /* AppDelegate.swift in Sources */,
+				406BE85E27E8FB5C00F13F43 /* MainViewBG1.swift in Sources */,
 				406BE83F27E8D2BA00F13F43 /* DataModel.swift in Sources */,
 				406BE83027E8BD5E00F13F43 /* MainView.swift in Sources */,
 				406BE82E27E8BD5E00F13F43 /* ActioApp.swift in Sources */,
